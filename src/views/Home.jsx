@@ -76,7 +76,7 @@ class HomeView extends Component {
             </div>
             <div className="col-md-3">
               <CardLogin className="mb-3" />
-              <CardImage src="/images/banner/Watches.webp" to="promo" />
+              <CardImage src="images/banner/Watches.webp" to="promo" />
             </div>
           </div>
         </div>
@@ -104,7 +104,7 @@ class HomeView extends Component {
             <div className="col-md-3">
               <Link to="/" className="text-decoration-none">
                 <img
-                  src="/images/category/male.webp"
+                  src="images/category/male.webp"
                   className="img-fluid rounded-circle"
                   alt="..."
                 />
@@ -114,7 +114,7 @@ class HomeView extends Component {
             <div className="col-md-3">
               <Link to="/" className="text-decoration-none">
                 <img
-                  src="/images/category/female.webp"
+                  src="images/category/female.webp"
                   className="img-fluid rounded-circle"
                   alt="..."
                 />
@@ -124,7 +124,7 @@ class HomeView extends Component {
             <div className="col-md-3">
               <Link to="/" className="text-decoration-none">
                 <img
-                  src="/images/category/smartwatch.webp"
+                  src="images/category/smartwatch.webp"
                   className="img-fluid rounded-circle"
                   alt="..."
                 />
@@ -134,7 +134,7 @@ class HomeView extends Component {
             <div className="col-md-3">
               <Link to="/" className="text-decoration-none">
                 <img
-                  src="/images/category/footwear.webp"
+                  src="images/category/footwear.webp"
                   className="img-fluid rounded-circle"
                   alt="..."
                 />
