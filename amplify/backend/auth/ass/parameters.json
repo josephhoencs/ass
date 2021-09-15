@@ -1,0 +1,6 @@
+{
+  "authSelections": "userPoolOnly",
+  "resourceName": "ass",
+  "serviceType": "imported",
+  "region": "us-east-2"
+}
