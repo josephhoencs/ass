@@ -85,11 +85,11 @@ const TopMenu = () => {
                   Fashion
                 </Link>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <Link className="nav-link" to="/category">
                   Supermarket
                 </Link>
-              </li>
+              </li> */}
               <li className="nav-item">
                 <Link className="nav-link" to="/category">
                   Electronics
@@ -100,11 +100,11 @@ const TopMenu = () => {
                   Furniture
                 </Link>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <Link className="nav-link" to="/category">
                   Garden & Outdoors
                 </Link>
-              </li>
+              </li> */}
               <li className="nav-item">
                 <Link className="nav-link" to="/category">
                   Jewellery
@@ -113,6 +113,16 @@ const TopMenu = () => {
               <li className="nav-item">
                 <Link className="nav-link" to="/documentation">
                   Documentation
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/aboutus">
+                  About Us
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/category">
+                  Contact
                 </Link>
               </li>
             </ul>
