@@ -12,7 +12,6 @@ import {
   minLengthMobileNo,
   digit,
   name,
-  email,
 } from "../../helpers/validation";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -34,34 +33,45 @@ const SignUpForm = (props) => {
       <div className="row mb-3">
         <div className="col-md-6">
           <Field
-            name="email"
+            name="firstName"
             type="text"
-            label="email address"
+            label="First Name"
             component={renderFormField}
-            placeholder="example@hotmail.com"
-            validate={[required, email]}
+            placeholder="First Name"
+            validate={[required, name]}
+            required={true}
+          />
+        </div>
+        <div className="col-md-6">
+          <Field
+            name="lastName"
+            type="text"
+            label="Last Name"
+            component={renderFormField}
+            placeholder="Last Name"
+            validate={[required, name]}
             required={true}
           />
         </div>
       </div>
       <Field
-        name="password"
-        type="password"
-        label="Your password"
-        component={renderFormField}
-        placeholder="******"
-        icon={IconShieldLockFill}
-        validate={[required, maxLength20, minLength8]}
+        name="mobileNo"
+        type="number"
+        label="Mobile no"
+        component={renderFormGroupField}
+        placeholder="Mobile no without country code"
+        icon={IconPhoneFill}
+        validate={[required, maxLengthMobileNo, minLengthMobileNo, digit]}
         required={true}
-        maxLength="20"
-        minLength="8"
+        max="999999999999999"
+        min="9999"
         className="mb-3"
       />
       <Field
-        name="confirm password"
-        type="confirm password"
-        label="confirm password"
-        component={renderFormField}
+        name="password"
+        type="password"
+        label="Your password"
+        component={renderFormGroupField}
         placeholder="******"
         icon={IconShieldLockFill}
         validate={[required, maxLength20, minLength8]}
