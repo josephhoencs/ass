@@ -7,11 +7,6 @@ import { createStore } from "redux";
 import { Provider } from "react-redux";
 import rootReducer from "./reducers";
 import { loadState, saveState } from "./localStorage";
-
-import Amplify from 'aws-amplify';
-import config from './aws-exports';
-Amplify.configure(config);
-
 const persistedState = loadState();
 const store = createStore(rootReducer, persistedState);
 
