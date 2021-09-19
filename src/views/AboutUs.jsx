@@ -4,18 +4,35 @@ class AboutUsView extends Component {
   render() {
     return (
       <React.Fragment>
-        <p>Your order of 100$ or more gets free standard delivery.</p>
-        <ul>
-          <li>Standard delivered 4-5 Business Days</li>
-          <li>Express delivered 2-4 Business Days</li>
-        </ul>
+        <li></li>
+        <h1>About Us</h1>
         <p>
-          Orders are processed and delivered Monday-Friday (excluding public
-          holidays)
+          <li>At XXX we believe in the power of the community. We strive to be a platform that encourage the safe exchange of goods and services among</li>
+          <li>individuals with various interests.</li>
+          
+          <li></li>
         </p>
+        <h2>Creating 2nd hand market for goods</h2>
         <p>
-          No Returns/Replacements Allowed - Returns or replacements are not
-          accepted by seller for this product. Cancellation allowed.
+          <li>One man's trash is another man's treasure. The availability of a 2nd Hand market for goods ensures the reduction of</li>
+          <li>waste materials being disposed, thereby alleviating land pollution as a result of waste disposal.</li>
+          
+          <li></li>
+        </p>
+
+        <h2>Services and knowledge exchange</h2>
+        <p>
+          <li>Besides goods being sold and exchanged, services can also be provided by our users to each other.</li>
+          <li>With no added starting cost to the sellers, our platform serves as an easy way to get your business rolling!</li>
+          
+          <li></li>
+        </p>
+        <h2>Safe and available platform</h2>
+        <p>
+          <li>Our team consistently provided 24/7 support to users 365 days a year to ensure you get the best service.</li>
+          <li>Your private information is kept secured by us, so you can rest easy.</li>
+          
+          <li></li>
         </p>
       </React.Fragment>
     );
@@ -24,4 +41,3 @@ class AboutUsView extends Component {
 
 export default AboutUsView;
 
-//added About us page not currently working..

@@ -29,6 +29,9 @@ const SupportView = lazy(() => import("./views/pages/Support"));
 const BlogView = lazy(() => import("./views/blog/Blog"));
 const BlogDetailView = lazy(() => import("./views/blog/Detail"));
 
+const AboutUsView = lazy(() => import("./views/AboutUs")); // inserted for about us view page
+const ContactView = lazy(() => import("./views/Contact")); // inserted for contact us view page
+
 function App() {
   return (
     <BrowserRouter>
@@ -68,6 +71,10 @@ function App() {
             <Route exact path="/blog" component={BlogView} />
             <Route exact path="/blog/detail" component={BlogDetailView} />
             <Route exact path="/500" component={InternalServerErrorView} />
+
+            <Route exact path="/aboutus" component={AboutUsView} />  
+            <Route exact path="/contact" component={ContactView} />  
+
             <Route component={NotFoundView} />
           </Switch>
         </Suspense>
