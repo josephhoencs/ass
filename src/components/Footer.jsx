@@ -63,19 +63,27 @@ const Footer = () => {
         <div className="container-fluid bg-dark text-white">
           <div className="row ">
             <div className="col-md-3 py-3">
-              <div className="h6">Company Name</div>
+              <div className="h6">Business Supplier Marketplace</div>
               <hr />
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book.
+                At the Business Supplier Marketplace, 
+                we believe in the power of the community. 
+                We strive to be a platform that encourage the safe exchange of 
+                goods and services among individuals with various interests.
               </p>
             </div>
             <div className="col-md-3 py-3">
               <div className="h6">Products</div>
               <hr />
               <ul className="list-group list-group-flush">
+                <li className="list-group-item bg-dark text-white border-light">
+                  <Link
+                    to="/"
+                    className="text-decoration-none text-white stretched-link"
+                  >
+                    Fashion
+                  </Link>
+                </li>
                 <li className="list-group-item bg-dark text-white border-light">
                   <Link
                     to="/"
@@ -89,7 +97,7 @@ const Footer = () => {
                     to="/"
                     className="text-decoration-none text-white stretched-link"
                   >
-                    Mobiles
+                    Jewellery
                   </Link>
                 </li>
                 <li className="list-group-item bg-dark text-white border-light">
@@ -97,7 +105,7 @@ const Footer = () => {
                     to="/"
                     className="text-decoration-none text-white stretched-link"
                   >
-                    Car & bike
+                    Furniture
                   </Link>
                 </li>
                 <li className="list-group-item bg-dark text-white border-light">
@@ -105,15 +113,7 @@ const Footer = () => {
                     to="/"
                     className="text-decoration-none text-white stretched-link"
                   >
-                    Super Market
-                  </Link>
-                </li>
-                <li className="list-group-item bg-dark text-white border-light">
-                  <Link
-                    to="/"
-                    className="text-decoration-none text-white stretched-link"
-                  >
-                    Travel Cards
+                    & Many More
                   </Link>
                 </li>
               </ul>
@@ -168,19 +168,19 @@ const Footer = () => {
               <div className="h6">Address</div>
               <hr />
               <address>
-                <strong>Twitter, Inc.</strong>
+                <strong>Business Supplier Marketplace</strong>
                 <br />
-                1355 Market St, Suite 900
+                1355 Pasir Ris St, Suite 900
                 <br />
-                San Francisco, CA 94103
+                Singapore, S94103
                 <br />
-                <abbr title="Phone">P:</abbr> (123) 456-7890
+                <abbr title="Phone">P:</abbr> (65) 999-999
               </address>
               <div className="h6">Customer Care</div>
               <hr />
-              <IconTelephone /> +1800 100 1000
+              <IconTelephone /> +65 999 999
               <br />
-              <IconEnvelope /> info@email.com
+              <IconEnvelope /> info@bussupmark.com
             </div>
           </div>
         </div>
@@ -202,7 +202,7 @@ const Footer = () => {
               </Link>
             </div>
             <div className="col-md-3 py-2">
-              © 2009-{new Date().getFullYear()} React-E-Commerce.com
+              © 2021-{new Date().getFullYear()} Business Supplier Marketplace
             </div>
             <div className="col-md-3 py-2 bg-white">
               <img
