@@ -11,7 +11,7 @@ const Support = (props) => {
             <span className="p-3 bg-light rounded-circle mr-3 text-dark">
               <IconCash className="display-6" />
             </span>
-            Reasonable prices
+            {" "}Reasonable prices
           </div>
         </div>
       </div>
@@ -21,7 +21,7 @@ const Support = (props) => {
             <span className="p-3 bg-light rounded-circle mr-3 text-dark">
               <IconHeadset className="display-6" />
             </span>
-            Customer support 24/7
+            {" "}Customer support 24/7
           </div>
         </div>
       </div>
@@ -31,7 +31,7 @@ const Support = (props) => {
             <span className="p-3 bg-light rounded-circle mr-3 text-dark">
               <IconTruck className="display-6" />
             </span>
-            Quick delivery
+            {" "}Quick delivery
           </div>
         </div>
       </div>

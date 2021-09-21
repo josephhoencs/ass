@@ -30,7 +30,7 @@ const CardDealsOfTheDay = (props) => {
           <Countdown
             date={props.endDate}
             renderer={renderer}
-          />
+          /> {" "}
           <span className="float-right">
             <Link to={props.to} className="btn btn-sm btn-outline-primary">
               View All

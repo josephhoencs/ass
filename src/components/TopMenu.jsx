@@ -1,13 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
 const TopMenu = () => {
   return (
     <React.Fragment>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark p-0">
         <div className="container-fluid">
           <Link className="navbar-brand" to="/">
-            E-Commerce
+            Business Supplier Marketplace
           </Link>
           <button
             className="navbar-toggler"
@@ -22,7 +21,7 @@ const TopMenu = () => {
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav">
-              <li className="nav-item dropdown">
+              {/* <li className="nav-item dropdown">
                 <button
                   className="btn nav-link dropdown-toggle font-weight-bold"
                   id="navbarDropdown"
@@ -79,7 +78,7 @@ const TopMenu = () => {
                     </Link>
                   </li>
                 </ul>
-              </li>
+              </li> */}
               <li className="nav-item">
                 <Link className="nav-link" to="/category">
                   Fashion

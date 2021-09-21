@@ -3,8 +3,8 @@ export const data = {
     {
       to: "/link",
       img: "../../images/banner/Banner_2.webp",
-      title: "First slide label",
-      description: "Nulla vitae elit libero, a pharetra augue mollis interdum",
+      title: "Come Check Our Available Products!",
+      description: "You will not regret!",
     },
     {
       to: "/link",

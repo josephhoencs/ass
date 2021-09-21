@@ -174,7 +174,7 @@ const Footer = () => {
                 <br />
                 Singapore, S94103
                 <br />
-                <abbr title="Phone">P:</abbr> (65) 999-999
+                <abbr title="Phone">Phone:</abbr> (65) 999-999
               </address>
               <div className="h6">Customer Care</div>
               <hr />

@@ -2,13 +2,13 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Search from "./Search";
 import { ReactComponent as IconCart3 } from "bootstrap-icons/icons/cart3.svg";
-import { ReactComponent as IconPersonBadgeFill } from "bootstrap-icons/icons/person-badge-fill.svg";
+/* import { ReactComponent as IconPersonBadgeFill } from "bootstrap-icons/icons/person-badge-fill.svg";
 import { ReactComponent as IconStarFill } from "bootstrap-icons/icons/star-fill.svg";
 import { ReactComponent as IconListCheck } from "bootstrap-icons/icons/list-check.svg";
 import { ReactComponent as IconDoorClosedFill } from "bootstrap-icons/icons/door-closed-fill.svg";
 import { ReactComponent as IconHeartFill } from "bootstrap-icons/icons/heart-fill.svg";
 import { ReactComponent as IconBellFill } from "bootstrap-icons/icons/bell-fill.svg";
-import { ReactComponent as IconInfoCircleFill } from "bootstrap-icons/icons/info-circle-fill.svg";
+import { ReactComponent as IconInfoCircleFill } from "bootstrap-icons/icons/info-circle-fill.svg"; */
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUser } from "@fortawesome/free-solid-svg-icons";
 
@@ -38,6 +38,7 @@ const Header = () => {
                   </div>
                 </Link>
               </div>
+              {" "}
               <div className="btn-group">
                 <button
                   type="button"
@@ -48,7 +49,7 @@ const Header = () => {
                 >
                   <FontAwesomeIcon icon={faUser} className="text-light" />
                 </button>
-                <ul className="dropdown-menu">
+                {/* <ul className="dropdown-menu">
                   <li>
                     <Link className="dropdown-item" to="/account/profile">
                       <IconPersonBadgeFill /> My Profile
@@ -90,9 +91,9 @@ const Header = () => {
                       <IconDoorClosedFill className="text-danger" /> Logout
                     </Link>
                   </li>
-                </ul>
+                </ul> */}
               </div>
-              <a
+              {/* <a
                 href="https://www.buymeacoffee.com/bhaumik"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -101,7 +102,7 @@ const Header = () => {
                   src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png"
                   alt="BuyMeACoffee" width="120"
                 />
-              </a>
+              </a> */}
               {/* <Link to="/account/signin">Sign In</Link> |{" "}
               <Link to="/account/signup"> Sign Up</Link> */}
             </div>
